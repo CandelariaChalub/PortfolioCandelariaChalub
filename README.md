@@ -1,2 +1,2 @@
 # PortfolioCandelariaChalub
-Mi Portfolio donde presento mis skills y mis proyectos
+Mi Portfolio (desactualizado) donde presento mis skills y mis proyectos
