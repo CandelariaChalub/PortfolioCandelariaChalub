@@ -296,14 +296,19 @@ a{
   color: #E2E2E2;
 }
 .started-items {
-  padding: 60px 80px 12px;
-  position: relative;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  padding: 40px 0;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
+.started-items .itemwrapper {
+  text-align: center;
+}
+
 .started-items:before {
   content: "";
   position: absolute;
@@ -352,12 +357,28 @@ a{
 }
 .discover-items {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-row-gap: 20px;
-  padding: 2px;
-  grid-column-gap: 10px;
-  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .discover-loadbtn {
   cursor: pointer;
   margin-top: 20px;
@@ -461,6 +482,16 @@ a{
   font-size: 12px;
   line-height: 24px;
   color: #BCBCBC;
+}
+
+
+.item-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .filters {
