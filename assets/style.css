@@ -37,10 +37,6 @@ a {
   background-color: #FB37FF;
 }
 
-.h5{
-  color: #fffff;
-}
-
 .landingpage::after {
   content: "";
   position: absolute;
@@ -503,6 +499,7 @@ a {
 }
 
 .footer-navigate .nav h5 {
+  color: #FFFFFF;
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
