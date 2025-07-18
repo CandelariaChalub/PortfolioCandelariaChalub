@@ -37,6 +37,10 @@ a {
   background-color: #FB37FF;
 }
 
+.h5{
+  color: #fffff;
+}
+
 .landingpage::after {
   content: "";
   position: absolute;
