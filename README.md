@@ -13,7 +13,7 @@ This is my personal portfolio website showcasing my experience, technical stack,
 - Icons from **Icons8 & Devicon**  
 
 ## 🌐 Live Demo  
-In description.
+https://candelariachalub.github.io/PortfolioCandelariaChalub/
 
 ---
 © 2025 Candelaria Chalub
